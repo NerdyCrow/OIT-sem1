@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Jumping</title>
+	<style type="text/css">
+		body{
+			background-image: url(table.jpg);
+		}
+
+		@-webkit-keyframes anim {
+			0% {margin-left:3px;margin-top:3px;transform:rotate(0deg);}
+			25% {margin-left:170px;margin-top:400px;transform:rotate(0deg);}
+			50% {margin-left:270px;margin-top:200px;transform:rotate(0deg);}
+			75% {margin-left:370px;margin-top:400px;transform:rotate(0deg);}
+			100% {margin-left:500px;margin-top:400px;transform:rotate(360deg);}
+			
+		}
+		#wrap{
+			
+
+			animation: anim 6s 10;
+			-webkit-animation:anim 3s 10 linear;
+		}
+
+	</style>
+</head>
+<body>
+	<div ><img src="kapusta.png" alt="" width="5%" height="5%" id="wrap"></div>
+</body>
+</html>

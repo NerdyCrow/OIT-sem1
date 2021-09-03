@@ -1,0 +1,44 @@
+h1,h2,h3,span{
+	color:blue;
+	font-family: Calibri;
+
+}
+body{background-image: linear-gradient(#5603a8,#fb00ff, #0fe);	 }
+
+.ol{color: Gold;font-family:Arial Black;}
+.spicok1{color: red;font-family:Arial Black; }
+.spiсok2{color: #61029c;font-family:Impact; }
+
+.li1{
+	/*list-style-type: square;*/
+	list-style-image:url('jam.png');
+color: #71fa07;font-family:Impact;}
+	/*a:link{color: blue;}
+	a:visited{color: gold;}
+	a:hover{color:#08ff5a;}*/
+	a:active{color: black;}
+p:first-child {color: red;}
+p:first-line {   
+	font-style: italic;    
+	font-weight: bold;  
+	text-decoration: underline;   }
+P:first-letter {    
+	font-family: "Times New Roman", Times, serif;  
+	font-size: 200%;    
+	color: red; 
+	border: 5px gold solid}  
+
+.s1:before{content: " студент 1 курса "; }
+.s1:after{content: " проживающий по адресу: Белорусская 21 "}  
+						/*Для 3 страницы*/
+.table1{	background:url(zakat.jpg);	
+			background-position: center;
+			background-size: cover;
+			background-repeat: no-repeat;
+			color: white; 
+			font-size: 13pt;	
+			font-family: Helvetica;	
+			text-align:center;
+			vertical-align :middle;
+			font-style: italic; }
+/*.........................*/
